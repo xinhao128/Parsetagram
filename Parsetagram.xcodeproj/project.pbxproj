@@ -13,6 +13,7 @@
 		DB61FB3A221B55E600D8E388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB61FB39221B55E600D8E388 /* Assets.xcassets */; };
 		DB61FB3D221B55E600D8E388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB61FB3B221B55E600D8E388 /* LaunchScreen.storyboard */; };
 		DB9876A4221CD65C0036FB56 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9876A3221CD65C0036FB56 /* PostCell.swift */; };
+		DBC03B5D2223975D00D13AAB /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC03B5C2223975D00D13AAB /* CommentCell.swift */; };
 		DBFD7516221B6912002A9BDD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFD7515221B6912002A9BDD /* LoginViewController.swift */; };
 		DBFD7518221B6926002A9BDD /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFD7517221B6926002A9BDD /* FeedViewController.swift */; };
 		DBFD751A221B7804002A9BDD /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFD7519221B7804002A9BDD /* CameraViewController.swift */; };
@@ -28,6 +29,7 @@
 		DB61FB3C221B55E600D8E388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB61FB3E221B55E600D8E388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB9876A3221CD65C0036FB56 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		DBC03B5C2223975D00D13AAB /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		DBFD7515221B6912002A9BDD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DBFD7517221B6926002A9BDD /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		DBFD7519221B7804002A9BDD /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			children = (
 				DB61FB32221B55E400D8E388 /* AppDelegate.swift */,
 				DB61FB36221B55E400D8E388 /* Main.storyboard */,
+				DBC03B5C2223975D00D13AAB /* CommentCell.swift */,
 				DB61FB39221B55E600D8E388 /* Assets.xcassets */,
 				DB61FB3B221B55E600D8E388 /* LaunchScreen.storyboard */,
 				DB61FB3E221B55E600D8E388 /* Info.plist */,
@@ -200,6 +203,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -209,6 +213,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,6 +233,7 @@
 				DBFD7518221B6926002A9BDD /* FeedViewController.swift in Sources */,
 				DB61FB33221B55E400D8E388 /* AppDelegate.swift in Sources */,
 				DB9876A4221CD65C0036FB56 /* PostCell.swift in Sources */,
+				DBC03B5D2223975D00D13AAB /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
